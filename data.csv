@@ -1,0 +1,58 @@
+Location,Type,Name,Custom Name,Chinese Name,osm_type,osm_id,Wikidata ID
+Bali,Restaurant,Café Des Artistes,Café Des Artistes,法式艺人咖啡馆,node,4424538107,Q5017283
+Kuala Lumpur,Restaurant,Old Town White Coffee,Old Town White Coffee,旧街场白咖啡,node,1640445207,Q7085308
+Kyoto,Restaurant,Nishiki Market,Nishiki Market,锦市场,node,4104035390,Q11650434
+London,Restaurant,Borough Market,Borough Market,博罗市场,way,24282400,Q894072
+London,Restaurant,The Ledbury,The Ledbury,莱德波餐厅,node,3569341193,Q7746592
+Los Angeles,Restaurant,In-N-Out burger,In-N-Out burger,In-N-Out汉堡,way,424024157,Q1205312
+Los Angeles,Restaurant,Intelligentsia,Intelligentsia,Intelligentsia咖啡,node,3855965601,Q381142
+Los Angeles,Restaurant,Native Foods,Native Foods,Native Foods店,node,2363521786,Q18636327
+NYC,Restaurant,21 club,21 club,21俱乐部餐厅,node,4243429396,Q618114
+NYC,Restaurant,Chick-fil-A,Chick-fil-A,美国快餐连锁店福来鸡,node,3969879899,Q491516
+NYC,Restaurant,Chick-fil-A,Chick-fil-A,美国快餐连锁店福来鸡,node,3972056717,Q491516
+NYC,Restaurant,Chick-fil-A,Chick-fil-A,美国快餐连锁店福来鸡,node,4271528490,Q491516
+NYC,Restaurant,Eleven Madison Park,Eleven Madison Park,麦迪逊公园十一号,node,3932353662,Q5359767
+NYC,Restaurant,Keens Steakhouse,Keens Steakhouse,基恩斯牛排餐厅,node,3068326556,Q6382920
+NYC,Restaurant,Levain Bakery,Levain Bakery,Levain面包店,node,1667407048,Q6534818
+NYC,Restaurant,McDonald's,McDonald's,麦当劳,node,270985138,Q38076
+NYC,Restaurant,Serendipity 3,Serendipity 3,缘分餐厅,node,4352204390,Q564516
+Osaka,Restaurant,Ichiran,Ichiran,一兰拉面道顿崛店,node,3507545615,Q11266830
+Paris,Restaurant,Café de Flore,Café de Flore,花神咖啡馆,node,251699776,Q1025686
+Paris,Restaurant,L'Astrance,L'Astrance,Astrance餐厅,node,255060753,Q6455614
+Paris,Restaurant,Le Bon Marché,Le Bon Marché,好商佳百货公司,way,68730159,Q1200698
+Paris,Restaurant,Le Bon Marché,Le Bon Marché,好商佳百货公司,way,50395707,Q1200698
+Paris,Restaurant,Le Cinq,Le Cinq,巴黎四季酒店餐厅,node,2685582243,Q14955143
+Paris,Restaurant,Les Deux Magots,Les Deux Magots,双叟咖啡馆,node,251699775,Q1147912
+Rome,Restaurant,Giolitti,Giolitti,Giolitti冰激凌店,node,32631124,Q5563355
+Rome,Restaurant,Giolitti,Giolitti,Giolitti冰激凌店,node,259659463,Q5563355
+Seoul,Restaurant,A Twosome Place By 51k,A Twosome Place By 51k,狎鸥亭店,way,356215992,Q12621301
+Seoul,Restaurant,Mad for Garlic,Mad for Garlic,疯狂的大蒜,node,223165016,Q23044852
+SF,Restaurant,Alice's,Alice's,爱丽丝,node,2629023876,Q4725691
+SF,Restaurant,Americano,Americano,美式咖啡,node,2840142901,Q467441
+SF,Restaurant,Tony's Pizza Napoletana,Tony's Pizza Napoletana,托尼拿波里式披萨店,node,3702219083,Q21016270
+Siem Reap,Restaurant,The Soup Dragon,The Soup Dragon,柬式火锅,node,580341233,Q3066755
+Singapore,Restaurant,Boon Tong Kee,Boon Tong Kee,文东记（马里士他店）,node,965693389,Q18653514
+Singapore,Restaurant,Lau Pa Sat,Lau Pa Sat,老巴刹美食中心,node,602892250,Q7697795
+Bali,Hotel,RIMBA Jimbaran Bali,RIMBA Jimbaran Bali,巴厘岛金巴兰丛林酒店,node,4177857642,Q19646363
+Bali,Hotel,"The Laguna, a Luxury Collection Resort & Spa, Nusa Dua, Bali","The Laguna, a Luxury Collection Resort & Spa, Nusa Dua, Bali",巴厘岛努沙杜瓦拉古娜豪华精选度假酒店,way,132366910,Q7745221
+Bali,Hotel,"The Laguna, a Luxury Collection Resort & Spa, Nusa Dua, Bali","The Laguna, a Luxury Collection Resort & Spa, Nusa Dua, Bali",巴厘岛努沙杜瓦拉古娜豪华精选度假酒店,node,128438467,Q7745221
+Hanoi,Hotel,InterContinental Hanoi Westlake,InterContinental Hanoi Westlake,洲际河内西湖酒店,way,321329256,Q25110775
+Istanbul,Hotel,Hilton Istanbul Bosphorus,Hilton Istanbul Bosphorus,希尔顿伊斯坦布尔酒店,way,26970154,Q4806513
+Jeju,Hotel,Phoenix Island,Phoenix Island,济州凤凰岛酒店,way,375497129,Q7186912
+London,Hotel,Flemings Mayfair,Flemings Mayfair,弗雷明斯梅菲尔酒店,node,503553591,Q16992229
+London,Hotel,Regency House Hotel,Regency House Hotel,伦敦摄政大楼酒店,node,42112145,Q26273519
+London,Hotel,Rosewood London,Rosewood London,伦敦大法官法院酒店,relation,1967702,Q5070826
+London,Hotel,Strand Palace Hotel,Strand Palace Hotel,斯特兰德宫酒店,node,603137904,Q7621234
+NYC,Hotel,Hostelling International – New York,Hostelling International – New York,纽约国际青年旅舍,way,271184934,Q1608722
+NYC,Hotel,Millenium Hilton,Millenium Hilton,纽约希尔顿千禧酒店,way,278039445,Q5102958
+NYC,Hotel,The New York Palace,The New York Palace,纽约宫酒店,relation,2175651,Q7753810
+Osaka,Hotel,The Westin Osaka,The Westin Osaka,大阪威斯汀酒店,node,1741200554,Q11288496
+Rome,Hotel,Ponte Sisto,Ponte Sisto,庞特西斯特酒店,way,220585377,Q586329
+SF,Hotel,Buena Vista Park,Buena Vista Park,康姆斯福海特布纳维斯塔公园公寓酒店,way,7459901,Q2749189
+SF,Hotel,Hotel Nikko San Francisco,Hotel Nikko San Francisco,旧金山日航酒店,node,648270469,Q24886057
+SF,Hotel,Hyatt Regency San Francisco,Hyatt Regency San Francisco,凯悦旧金山酒店,way,28319370,Q5952911
+SF,Hotel,InterContinental San Francisco,InterContinental San Francisco,洲际旧金山酒店,way,256029743,Q3153055
+SF,Hotel,W San Francisco,W San Francisco,旧金山W酒店,node,3455075365,Q2648096
+Singapore,Hotel,Marina Bay Sands,Marina Bay Sands,新加坡滨海湾金沙大酒店,node,4302905987,Q548679
+Tokyo,Hotel,Grand Nikko Tokyo Daiba,Grand Nikko Tokyo Daiba,东京台场日航大酒店,relation,5807214,Q3224503
+Tokyo,Hotel,The Capitol Hotel Tokyu,The Capitol Hotel Tokyu,国会东急大酒店,node,1494149076,Q11306496
