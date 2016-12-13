@@ -1,5 +1,5 @@
 Location,Type,Name,Custom Name,Chinese Name,osm_type,osm_id,Wikidata ID,Distance
-Location,Type,Name,Custom Name,Chinese Name,osm_type,osm_id,Wikidata ID,Error
+Location,Type,Name,Custom Name,Chinese Name,osm_type,osm_id,Wikidata ID_upwork,Error
 Bali,Restaurant,Café Des Artistes,Café Des Artistes,法式艺人咖啡馆,node,4424538107,Q5017283,2109.6011457018244
 Kuala Lumpur,Restaurant,Old Town White Coffee,Old Town White Coffee,旧街场白咖啡,node,1640445207,Q7085308,Error
 Kyoto,Restaurant,Nishiki Market,Nishiki Market,锦市场,node,4104035390,Q11650434,0.15057185403838616
@@ -19,7 +19,7 @@ NYC,Restaurant,McDonald's,McDonald's,麦当劳,node,270985138,Q38076,Error
 NYC,Restaurant,Serendipity 3,Serendipity 3,缘分餐厅,node,4352204390,Q564516,0.004252801390385512
 Osaka,Restaurant,Ichiran,Ichiran,一兰拉面道顿崛店,node,3507545615,Q11266830,Error
 Paris,Restaurant,Café de Flore,Café de Flore,花神咖啡馆,node,251699776,Q1025686,0.03187256657365196
-Paris,Restaurant,L'Astrance,L'Astrance,Astrance餐厅,node,255060753,Q6455614,Error
+Paris,Restaurant,L'Astrance,L'Astrance,Astrance餐厅,node,255060753,Q6455614,0.004325670999054602
 Paris,Restaurant,Le Bon Marché,Le Bon Marché,好商佳百货公司,way,68730159,Q1200698,Error
 Paris,Restaurant,Le Bon Marché,Le Bon Marché,好商佳百货公司,way,50395707,Q1200698,Error
 Paris,Restaurant,Le Cinq,Le Cinq,巴黎四季酒店餐厅,node,2685582243,Q14955143,Error
@@ -52,8 +52,157 @@ Rome,Hotel,Ponte Sisto,Ponte Sisto,庞特西斯特酒店,way,220585377,Q586329,0
 SF,Hotel,Buena Vista Park,Buena Vista Park,康姆斯福海特布纳维斯塔公园公寓酒店,way,7459901,Q2749189,0.04610709373284133
 SF,Hotel,Hotel Nikko San Francisco,Hotel Nikko San Francisco,旧金山日航酒店,node,648270469,Q24886057,Error
 SF,Hotel,Hyatt Regency San Francisco,Hyatt Regency San Francisco,凯悦旧金山酒店,way,28319370,Q5952911,0.020983350280096437
-SF,Hotel,InterContinental San Francisco,InterContinental San Francisco,洲际旧金山酒店,way,256029743,Q3153055,Error
+SF,Hotel,InterContinental San Francisco,InterContinental San Francisco,洲际旧金山酒店,way,256029743,Q3153055,0.026651890285389543
 SF,Hotel,W San Francisco,W San Francisco,旧金山W酒店,node,3455075365,Q2648096,0.055958939034173205
 Singapore,Hotel,Marina Bay Sands,Marina Bay Sands,新加坡滨海湾金沙大酒店,node,4302905987,Q548679,0.09690634632535008
 Tokyo,Hotel,Grand Nikko Tokyo Daiba,Grand Nikko Tokyo Daiba,东京台场日航大酒店,relation,5807214,Q3224503,0.033648868650815025
 Tokyo,Hotel,The Capitol Hotel Tokyu,The Capitol Hotel Tokyu,国会东急大酒店,node,1494149076,Q11306496,Error
+Bali,Tourism,Kertha Gosa,Kertha Gosa,克龙宫仲裁法庭,way,240887756,Q6394777,0.006166084242041598
+Bangkok,Tourism,Wat Bang kung,Wat Bang kung,树中佛寺,node,1572033357,Q13020714,Error
+Bangkok,Tourism,Wat Phra Kaew,Wat Phra Kaew,玉佛寺,way,230010054,Q1045876,0.009750331962257632
+Chiang Mai,Tourism,Doi Suthep,Doi Suthep,素帖山,relation,5944548,Q669271,3.4170683978406466
+Chiang Mai,Tourism,Ping River,Ping River,宾河,relation,227319,Q592383,Error
+Chiang Mai,Tourism,Wat Monthian,Wat Monthian,孟天寺,way,250690123,Q19473270,0.8790924758547566
+Chiang Mai,Tourism,Wiang Kum Kam,Wiang Kum Kam,魏功甘古城,node,4350066707,Q1537210,0.48912501161306304
+Hanoi,Tourism,Temple of Literature,Temple of Literature,文庙,node,1000087290,Q1202019,0.041183839515811234
+Istanbul,Tourism,Egyptian Bazaar,Egyptian Bazaar,埃及市场,way,24234971,Q668641,0.04981916740962378
+Istanbul,Tourism,Forum of Constantine,Forum of Constantine,君士坦丁广场,way,11002513,Q1231380,12372.41452961455
+Jeju,Tourism,Yongdusan,Yongdusan,龙头岩,way,382696295,Q483056,0.004693540220252274
+Kuala Lumpur,Tourism,National History Museum,National History Museum,皇家马来西亚三军历史博物馆,node,4283481889,Q6973386,Error
+Kuala Lumpur,Tourism,National Mosque,National Mosque,国家清真寺,way,23768627,Q1356818,0.00846814671297991
+Kuala Lumpur,Tourism,Petronas Towers,Petronas Towers,双子塔,node,648858711,Q83063,0.565367893277119
+Kyoto,Tourism,Enryaku-ji,Enryaku-ji,延历寺,way,404678473,Q917195,0.05705979018414947
+Kyoto,Tourism,Kinkaku-ji,Kinkaku-ji,金阁寺,way,98115917,Q270983,0.040438178786938915
+Kyoto,Tourism,Kyoto Gyoen National Garden,Kyoto Gyoen National Garden,京都御苑,way,99448226,Q843854,0.13763091623582832
+Kyoto,Tourism,Saimyō-ji,Saimyō-ji,西明寺,node,4355966389,Q3461648,506.73476163827087
+Kyoto,Tourism,Umekoji Park,Umekoji Park,梅小路公园,way,121131295,Q11538444,Error
+London,Tourism,Cenotaph,Cenotaph,和平纪念碑,node,59598355,Q2896743,0.006772529894716712
+London,Tourism,St Peter's Church,St Peter's Church,圣彼得教堂,node,1490680047,Q27082570,10.76138107386508
+Los Angeles,Tourism,Disneyland,Disneyland,洛杉矶迪士尼乐园,relation,5586855,Q181185,0.23238385401901543
+NYC,Tourism,Discovery Times Square,Discovery Times Square,发现时代广场,node,2717293825,Q5281974,0.05982852040880349
+NYC,Tourism,St. Nicholas Russian Orthodox Cathedral,St. Nicholas Russian Orthodox Cathedral,圣尼古拉斯俄罗斯东正教教堂,way,266941348,Q651362,6.696899674138268
+NYC,Tourism,Statue of Liberty,Statue of Liberty,自由女神像,node,2311190720,Q9202,0.3601412293466171
+NYC,Tourism,Times Square,Times Square,时代广场,relation,3815274,Q11259,Error
+Osaka,Tourism,Kids Plaza Osaka,Kids Plaza Osaka,大阪儿童乐园,way,1906505143,Q11296794,Error
+Paris,Tourism,Esplanade des Invalides,Esplanade des Invalides,荣军院,way,4376593592,Q3058455,Error
+Paris,Tourism,Musée Cognacq-Jay,Musée Cognacq-Jay,杰博物馆,way,57781649,Q1572452,Error
+Paris,Tourism,Pont des Arts,Pont des Arts,艺术桥,way,19727160,Q1329141,0.06490023972014375
+Phuket,Tourism,Chalong Bay,Chalong Bay,查侬湾,node,2506866194,Q14210775,1.5190699471393991
+Phuket,Tourism,Phi Phi Island,Phi Phi Island,皮皮岛,way,321459076,Q511957,0.3130212632939319
+Phuket,Tourism,Phi Phi Island,Phi Phi Island,小皮皮岛,way,321459076,Q511957,0.3130212632939319
+Phuket,Tourism,Surin Islands,Surin Islands,苏林群岛,node,2421004322,Q25046183,Error
+Rome,Tourism,Palazzo valentini,Palazzo valentini,瓦伦蒂尼宫,relation,1892857,Q751105,0.026360981088740257
+Rome,Tourism,Piazza del Popolo,Piazza del Popolo,罗马人民广场,way,22955551,Q824997,0.0066437667435228324
+Rome,Tourism,Via della Conciliazione,Via della Conciliazione,协和大街,way,4949596,Q1140395,0.18432031164510512
+SF,Tourism,Cow Palace,Cow Palace,牛宫,way,24539226,Q604015,0.19222068131953218
+SF,Tourism,Fisherman's Wharf,Fisherman's Wharf,渔人码头,way,8919110,Q1324280,0.11208099667261925
+SF,Tourism,Golden Gate Bridge,Golden Gate Bridge,金门大桥,relation,451971,Q44440,Error
+SF,Tourism,SF Camerawork,SF Camerawork,SF摄影博物馆,node,1206749885,Q16934132,Error
+Tokyo,Tourism,Daikanyama,Daikanyama,代官山,node,3656056035,Q1153788,0.38910598987216244
+Tokyo,Tourism,Kagurazaka,Kagurazaka,神乐坂,node,5751954,Q3275957,Error
+Tokyo,Tourism,Tokyo Imperial Palace,Tokyo Imperial Palace,皇居,node,4449920089,Q500681,0.4501416755139233
+Tokyo,Tourism,Ueno Park,Ueno Park,上野恩赐公园,node,2265558113,Q746216,0.6302759541159959
+Bali,Shopping,Lippo mall,Lippo mall,力宝百货,way,260884085,Q10900649,Error
+Bali,Shopping,Ubud,Ubud,乌布市场,node,2385574277,Q210654,0.052073636972911765
+Bangkok,Shopping,Amarin plaza,Amarin plaza,亚曼利购物商场,way,25787548,Q4740292,0.010104215494955358
+Bangkok,Shopping,Damnoen Saduak Floating Market,Damnoen Saduak Floating Market,丹嫩沙多水上市场,node,268632501,Q13014948,0.09631455339070871
+Bangkok,Shopping,Tesco Lotus,Tesco Lotus,易初莲花超市（披耶泰路）,node,1969566860,Q2378901,Error
+Chiang Mai,Shopping,Big C,Big C,Big C超市）,node,2117270441,Q858665,Error
+Chiang Mai,Shopping,Big C,Big C,,node,3107122236,Q858665,Error
+Chiang Mai,Shopping,Big C,Big C,,node,3490774894,Q858665,Error
+Chiang Mai,Shopping,Big C,Big C,,way,77088773,Q858665,Error
+Chiang Mai,Shopping,Big C,Big C,,way,189469591,Q858665,Error
+Chiang Mai,Shopping,Big C,Big C,,way,384456229,Q858665,Error
+Chiang Mai,Shopping,Big C,Big C,,way,444091640,Q858665,Error
+Chiang Mai,Shopping,Big C,Big C,,way,58002192,Q858665,Error
+Hanoi,Shopping,Trang Tien Plaza,Trang Tien Plaza,场钱购物中心,node,4217845890,Q7833421,0.17394859276938782
+Istanbul,Shopping,Kanyon,Kanyon,峡谷,way,152274167,Q1593303,0.03616068816049816
+Jeju,Shopping,ETUDE HOUSE,ETUDE HOUSE,伊蒂之屋,way,356434618,Q16174973,Error
+Jeju,Shopping,Korea Ginseng,Korea Ginseng,正官庄(莲洞店),way,143197620,Q16256202,Error
+Kuala Lumpur,Shopping,Capsquare,Capsquare,开普广场,way,337183425,Q5036355,Error
+Kuala Lumpur,Shopping,Pasar Malam,Pasar Malam,巴刹马拉姆,node,341826385,Q2673931,Error
+Kuala Lumpur,Shopping,Pasar Malam,Pasar Malam,巴刹马拉姆,node,341826394,Q2673931,Error
+Kuala Lumpur,Shopping,Pasar Malam,Pasar Malam,巴刹马拉姆,node,341826434,Q2673931,Error
+Kuala Lumpur,Shopping,Pasar Malam,Pasar Malam,巴刹马拉姆,node,361351323,Q2673931,Error
+Kuala Lumpur,Shopping,Pasar Malam,Pasar Malam,巴刹马拉姆,node,362381577,Q2673931,Error
+Kuala Lumpur,Shopping,Pasar Malam,Pasar Malam,巴刹马拉姆,node,405211749,Q2673931,Error
+Kuala Lumpur,Shopping,Royal Selangor,Royal Selangor,皇家雪兰莪锡器,way,122455069,Q6150863,Error
+Kuala Lumpur,Shopping,SURIA KLCC,SURIA KLCC,阳光广场,way,23034336,Q1306924,0.018133616696495845
+Kuala Lumpur,Shopping,The Curve,The Curve,曲线广场,node,107998480,Q7728499,Error
+Kyoto,Shopping,Kyoto station,Kyoto station,京都站,node,601838668,Q801046,0.3453141317211046
+Kyoto,Shopping,Nishijin,Nishijin,西阵织会馆,way,188997958,Q5952107,Error
+Kyoto,Shopping,Takashimaya,Takashimaya,高岛屋京都店,node,1969966006,Q2058024,Error
+Kyoto,Shopping,Takashimaya,Takashimaya,,way,344481002,Q2058024,Error
+Kyoto,Shopping,Yojiya,Yojiya,优佳雅化妆品店（总店）,node,4234169990,Q11281266,Error
+London,Shopping,Abercrombie & Fitch,Abercrombie & Fitch,阿伯克比龙与菲奇,node,1097744275,Q319344,Error
+London,Shopping,Links of London,Links of London,Links of London珠宝店）,way,320420935,Q17069173,Error
+London,Shopping,Links of London,Links of London,Links of London珠宝店）,node,2967342479,Q17069173,Error
+London,Shopping,Links of London,Links of London,Links of London珠宝店）,node,3310091767,Q17069173,Error
+London,Shopping,Lulu Guinness,Lulu Guinness,露露·吉尼斯,node,1896158174,Q6702926,Error
+London,Shopping,Marks & Spencer（Oxford St）,Marks & Spencer（Oxford St）,玛莎百货（牛津街店）,node,654107285,Q714491,Error
+London,Shopping,Primark（Oxford St）,Primark（Oxford St）,普里马克（牛津街店）,node,610974580,Q137023,Error
+London,Shopping,Reiss（Vigo Store）,Reiss（Vigo Store）,蕊丝（伦敦Vigo大街店）,way,290461911,Q7310479,Error
+London,Shopping,Topshop,Topshop,拓扑肖普,node,1425277892,Q1893576,Error
+Los Angeles,Shopping,Barneys New York,Barneys New York,巴尼斯纽约精品店,way,423517415,Q59465,Error
+Los Angeles,Shopping,Bloomingdale's,Bloomingdale's,布鲁明黛百货公司,node,642708989,Q283383,Error
+Los Angeles,Shopping,La Brea Bakery,La Brea Bakery,拉布雷亚面包店,way,349378688,Q6461334,Error
+Los Angeles,Shopping,Melrose Avenue,Melrose Avenue,梅尔罗斯大街,way,423889766,Q3305282,1.305273968198871
+Los Angeles,Shopping,Saks Fifth Avenue,Saks Fifth Avenue,萨克斯第五大道,node,2285787888,Q2723882,Error
+NYC,Shopping,B&H Photo-Video,B&H Photo-Video,B&H照相摄影,node,1297648535,Q2919722,Error
+NYC,Shopping,Barneys New York,Barneys New York,巴尼斯纽约,node,3248774699,Q59465,Error
+NYC,Shopping,century 21,century 21,21世纪百货,node,999526131,Q5063125,Error
+NYC,Shopping,century 21,century 21,21世纪百货,node,1695866185,Q5063125,Error
+NYC,Shopping,century 21,century 21,21世纪百货,node,2830623176,Q5063125,Error
+NYC,Shopping,century 21,century 21,21世纪百货,node,4479637590,Q5063125,Error
+NYC,Shopping,Henri Bendel,Henri Bendel,亨利邦杜,node,4283625389,Q5715308,Error
+NYC,Shopping,Swatch,Swatch,斯沃琪（时代广场店）,node,3248774691,Q573422,Error
+Osaka,Shopping,Daimaru,Daimaru,大丸百货(心斋桥店),node,2702878605,Q3012112,Error
+Osaka,Shopping,Daimaru,Daimaru,,node,3409777236,Q3012112,Error
+Osaka,Shopping,Daimaru,Daimaru,,node,3409777237,Q3012112,Error
+Osaka,Shopping,Daimaru,Daimaru,,node,1740969658,Q3012112,Error
+Osaka,Shopping,Grand Front Osaka,Grand Front Osaka,Grand Front大阪,way,178942581,Q24899387,Error
+Osaka,Shopping,Hankyu Department Store,Hankyu Department Store,阪急梅田本店,node,1740969655,Q5648576,Error
+Osaka,Shopping,MUJI,MUJI,无印良品(难波店),node,1906846970,Q708789,Error
+Osaka,Shopping,MUJI,MUJI,,node,3060407062,Q708789,Error
+Osaka,Shopping,Nipponbashi,Nipponbashi,日本桥（大阪）,node,538718325,Q5191476,0.5786226808502942
+Paris,Shopping,Fauchon,Fauchon,馥颂,node,2656051565,Q3067334,Error
+Paris,Shopping,Fauchon,Fauchon,馥颂,node,1649702469,Q3067334,Error
+Paris,Shopping,Fauchon,Fauchon,馥颂,node,81750472,Q3067334,Error
+Paris,Shopping,Fragonard,Fragonard,花宫娜,node,3980764069,Q4820646,0.7307655940216928
+Paris,Shopping,Fragonard,Fragonard,花宫娜,node,3468001142,Q4820646,0.1358939322879641
+Paris,Shopping,Fragonard,Fragonard,花宫娜,node,2389317628,Q4820646,3.4195922335446145
+Phuket,Shopping,King Power Duty Free Shop,King Power Duty Free Shop,普吉王权免税店,node,3921137743,Q6411959,Error
+Phuket,Shopping,Robinson Department Store,Robinson Department Store,罗宾逊百货,way,301802397,Q6642534,Error
+Rome,Shopping,Coin,Coin,Coin百货,way,361651629,Q1107215,Error
+Rome,Shopping,Coin,Coin,Coin百货,node,1561730345,Q1107215,Error
+Rome,Shopping,Coin,Coin,Coin百货,node,1391602797,Q1107215,Error
+Rome,Shopping,Fabriano,Fabriano,法布里亚诺,way,27144794,Q13145,156.23530928553302
+Rome,Shopping,Piazza di Spagna,Piazza di Spagna,西班牙广场,way,26784878,Q15124814,0.05577180601688896
+Rome,Shopping,Upim,Upim,Upim商店,node,2768532703,Q1414836,Error
+Rome,Shopping,Upim,Upim,Upim商店,node,686151464,Q1414836,Error
+Seoul,Shopping,ERMENEGILDO ZEGNA,ERMENEGILDO ZEGNA,杰尼亚（首尔乐天百货总店）,node,357024175,Q1355904,Error
+Seoul,Shopping,ERMENEGILDO ZEGNA,ERMENEGILDO ZEGNA,杰尼亚（首尔新世界百货总店）,node,357024175,Q1355904,Error
+Seoul,Shopping,ERMENEGILDO ZEGNA,ERMENEGILDO ZEGNA,杰尼亚（首尔现代百货Coex店）,node,357024175,Q1355904,Error
+Seoul,Shopping,ERMENEGILDO ZEGNA,ERMENEGILDO ZEGNA,杰尼亚（首尔Galleria百货店）,node,357024175,Q1355904,Error
+Seoul,Shopping,Lotte Department Store,Lotte Department Store,乐天百货（世界大厦店）,node,3414261497,Q489905,Error
+Seoul,Shopping,Lotte Department Store,Lotte Department Store,乐天百货店（明洞总店）,node,3414261497,Q489905,Error
+Seoul,Shopping,migliore,migliore,美利来,node,273025568,Q6844236,Error
+SF,Shopping,Bi-Rite Market,Bi-Rite Market,毕爱色丽市场,way,262051839,Q4902337,Error
+SF,Shopping,Bi-Rite Market,Bi-Rite Market,毕爱色丽市场,node,2296383574,Q4902337,Error
+SF,Shopping,Bloomingdale's,Bloomingdale's,布鲁明戴尔百货,node,332627424,Q283383,Error
+SF,Shopping,Sur la Table,Sur la Table,Sur la Table厨具商场,node,365491272,Q7645220,Error
+SF,Shopping,Urban Outfitters,Urban Outfitters,城市户外用品店,node,2340007204,Q3552193,Error
+Singapore,Shopping,Citylink Mall,Citylink Mall,城联广场,way,222839478,Q5122966,0.0468084315402608
+Singapore,Shopping,Eu Yan Sang,Eu Yan Sang,余仁生药材店（牛车水分店）,node,3759861923,Q4207246,Error
+Singapore,Shopping,Eu Yan Sang,Eu Yan Sang,余仁生药材店（牛车水分店）,node,3759118175,Q4207246,Error
+Singapore,Shopping,Orchard Central,Orchard Central,乌节中央城,way,41889999,Q7100181,Error
+Tokyo,Shopping,Bic camera,Bic camera,必客,node,1377643958,Q4903531,Error
+Tokyo,Shopping,Bic camera,Bic camera,必客,node,2291210698,Q4903531,Error
+Tokyo,Shopping,Bic camera,Bic camera,必客,node,4072637112,Q4903531,Error
+Tokyo,Shopping,Bic camera,Bic camera,必客,way,116710254,Q4903531,Error
+Tokyo,Shopping,Bic camera,Bic camera,必客,way,182534373,Q4903531,Error
+Tokyo,Shopping,Daiso,Daiso,日本大创百货公司,node,338877811,Q866991,Error
+Tokyo,Shopping,Don Quijote,Don Quijote,堂吉诃德,node,703687902,Q1185381,Error
+Tokyo,Shopping,IDC OTSUKA,IDC OTSUKA,株式会社大塚家具（新宿展销厅）,way,162139696,Q5969954,Error
+Tokyo,Shopping,Mitsukoshi,Mitsukoshi,三越百货(银座店),node,1968421045,Q11081109,Error
+Tokyo,Shopping,uniqlo,uniqlo,优衣库新宿,node,727069690,Q26070,Error

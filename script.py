@@ -17,6 +17,9 @@ for row in reader:
     json.dump(row, jsonfile)
     jsonfile.write('\n')
 
+jsonfile.close()
+csvfile.close()
+
 jsonfile = open('data.json', 'r')
 outputjson = open('output.json','w')
 
@@ -44,8 +47,10 @@ for line in jsonfile:
         except:
             line['Distance'] = "Error"
             outputjson.write(json.dumps(line) + '\n')
+	print line
 
-
+outputjson.close()
+jsonfile.close()
 
 fw = open('output.csv', 'w')
 fr = open('output.json', 'r')
@@ -56,3 +61,5 @@ for line in fr:
     line = json.loads(line)
     csvwriter.writerow([line["Location"],line["Type"],line["Name"],line["Custom Name"],line["Chinese Name"],line["osm_type"],line["osm_id"],line["Wikidata ID"],line["Distance"]])
 
+fw.close()
+fr.close()
