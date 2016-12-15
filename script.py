@@ -11,7 +11,7 @@ sys.setdefaultencoding('utf-8')
 csvfile = open('data.csv', 'r')
 jsonfile = open('data.json','w')
 
-fieldnames = ("Location","Type","Name","Custom Name","Chinese Name","osm_type","osm_id","Wikidata ID")
+fieldnames = ("osm_id","osm_type","Type","name_en","name_zh_mbx","City","lon","lat","name","wikipedia","wikidata","name_zh")
 reader = csv.DictReader( csvfile, fieldnames)
 for row in reader:
     json.dump(row, jsonfile)
@@ -29,10 +29,10 @@ for line in jsonfile:
             r = requests.get('https://jzvqzn73ca.execute-api.us-east-1.amazonaws.com/api/feature/'+line['osm_type']+'/'+line['osm_id'])
             respons = r.json()
 
-            s = requests.get('https://www.wikidata.org/w/api.php?action=wbgetentities&ids=' + line['Wikidata ID'] + '&format=json')
+            s = requests.get('https://www.wikidata.org/w/api.php?action=wbgetentities&ids=' + line['wikidata'] + '&format=json')
             response = s.json()
-            latitude = response["entities"][line['Wikidata ID']]["claims"]["P625"][0]["mainsnak"]["datavalue"]["value"]["latitude"]
-            longitude = response["entities"][line['Wikidata ID']]["claims"]["P625"][0]["mainsnak"]["datavalue"]["value"]["longitude"]
+            latitude = response["entities"][line['wikidata']]["claims"]["P625"][0]["mainsnak"]["datavalue"]["value"]["latitude"]
+            longitude = response["entities"][line['wikidata']]["claims"]["P625"][0]["mainsnak"]["datavalue"]["value"]["longitude"]
 
             geom_geojson = shapely.geometry.shape({"type": "Point", "coordinates": [longitude, latitude]})
             geom_db = shapely.geometry.shape(respons['geometry'])
@@ -55,11 +55,11 @@ jsonfile.close()
 fw = open('output.csv', 'w')
 fr = open('output.json', 'r')
 csvwriter = csv.writer(fw)
-csvwriter.writerow(["Location","Type","Name","Custom Name","Chinese Name","osm_type","osm_id","Wikidata ID","Distance"])
+csvwriter.writerow(["osm_id","osm_type","Type","name_en","name_zh_mbx","City","lon","lat","name","wikipedia","wikidata","name_zh","Distance"])
 
 for line in fr:
     line = json.loads(line)
-    csvwriter.writerow([line["Location"],line["Type"],line["Name"],line["Custom Name"],line["Chinese Name"],line["osm_type"],line["osm_id"],line["Wikidata ID"],line["Distance"]])
+    csvwriter.writerow([line["osm_id"],line["osm_type"],line["Type"],line["name_en"],line["name_zh_mbx"],line["City"],line["lon"],line["lat"],line["name"],line["wikipedia"],line["wikidata"],line["name_zh"],line["Distance"]])
 
 fw.close()
 fr.close()
